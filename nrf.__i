@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -IF:\MSP430\TM4C123\HANKERLM4F232\HANKERLM4F232\Code 
+-I "D:\keil mdk4.7\ARM\RV31\INC" 
+-I "D:\keil mdk4.7\ARM\CMSIS\Include" 
+-I "D:\keil mdk4.7\ARM\Inc\Luminary" 
+-Drvmdk -DPART_LM4F232H5QD -DTARGET_IS_BLIZZARD_RA1 -DMPU9150 -o "nrf.o" --omf_browse "nrf.crf" --depend "nrf.d" "NRF.c"
